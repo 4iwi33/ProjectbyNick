@@ -19,6 +19,9 @@ if ($error != '') { // если $error не равно пустоте
     exit; // дальше ничего не обрабатывается
 }
 
+$subject = "=?utf-8?B?" . base64_encode("Testing Message") . "?=";
+mail('4iwi33@mail.ru', $subject, $message, $headers);
+
 // mail — Отправляет электронную почтуу
 // strlen — Возвращает длину строки
 // trim - удаляет пробелы 

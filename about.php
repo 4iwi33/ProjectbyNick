@@ -11,6 +11,14 @@
 
 <body>
     <?php require "header.php" ?>
+    <div class="container mt-5">
+        <h2>FORM</h2>
+        <form action="check.php" method="POST">
+            <input type="email" name="email" placeholder="Send Email" class="form-control"><br>
+            <textarea name="message" class="form-control" placeholder="Output you message"></textarea><br>
+            <button type="submit" name="send" class="btn btn-success">Send</button>
+        </form>
+    </div>
     <?php require "footer.php" ?>
 
 </body>

@@ -20,6 +20,7 @@ if ($error != '') { // если $error не равно пустоте
 }
 
 $subject = "=?utf-8?B?" . base64_encode("Testing Message") . "?=";
+$headers = "From: $email\r\nReply-to: $email\r\nContent-type: text/html";
 mail('4iwi33@mail.ru', $subject, $message, $headers);
 
 // mail — Отправляет электронную почтуу

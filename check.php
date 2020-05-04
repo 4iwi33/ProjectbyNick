@@ -19,9 +19,21 @@ if ($error != '') { // если $error не равно пустоте
     exit; // дальше ничего не обрабатывается
 }
 
-$subject = "=?utf-8?B?" . base64_encode("Testing Message") . "?=";
+$subject = "=?utf-8?B?" . base64_encode("Testing Message") . "?="; //отправка почты
 $headers = "From: $email\r\nReply-to: $email\r\nContent-type: text/html;charset=utf-8\r\n";
 mail('4iwi33@mail.ru', $subject, $message, $headers);
+
+// переадресация
+header("Locatin /about.php");
+
+
+
+
+
+
+
+
+
 
 // mail — Отправляет электронную почтуу
 // strlen — Возвращает длину строки

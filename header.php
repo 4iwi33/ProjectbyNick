@@ -11,9 +11,9 @@
     <?php
     if ($_COOKIE['user'] == 'Yes') : // если куки["юзер"] равно Yes то вывести Kabint
     ?>
-        <a class="btn btn-outline-primary" href="http://4iwi/ProjectbyNick/kabinet.php">Kabinet</a>
+        <a class="btn btn-outline-primary" href="/ProjectbyNick/kabinet.php">User account</a>
     <?php else : ?>
         <!-- иначе вывести Sign in -->
-        <a class="btn btn-outline-primary" href="http://4iwi/ProjectbyNick/kabinet.php">Sign in</a>
+        <a class="btn btn-outline-primary" href="/ProjectbyNick/kabinet.php">Sign in</a>
     <?php endif; ?>
 </div>

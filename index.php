@@ -20,7 +20,7 @@
             ?>
                 <div class="card mb-4 shadow-sm">
                     <div class="card-header">
-                        <h4 class="my-0 font-weight-normal">State</h4>
+                        <h4 class="my-0 font-weight-normal">State:</h4>
                     </div>
                     <div class="card-body">
                         <img src="img/<?php echo ($i + 1) ?>.jpg" class="img-thumbnail">

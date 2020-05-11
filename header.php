@@ -3,7 +3,7 @@
         <a href="/ProjectbyNick/index.php">TravelStates.com</a>
     </h5>
     <nav class="my-2 my-md-0 mr-md-3">
-        <a class="btn btn-outline-primary p-2" href="/ProjectbyNick/index.php">Home</a>
+        <a class="btn btn-outline-primary p-2" href="http://4iwi/ProjectbyNick/index.php">Home</a>
         <a class="btn btn-outline-primary p-2" href="/ProjectbyNick/about.php">Registration</a>
     </nav>
     <?php

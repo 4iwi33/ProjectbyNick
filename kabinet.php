@@ -4,6 +4,6 @@ if ($_COOKIE['user'] == 'Yes')  // если куки установлен
 else  
     setcookie('user', 'Yes', time() + 3600, '/'); // то устанавливаем time если куки не установлен
 
-header("Location: /");
+header("Location: /ProjectbyNick/index.php");
 // "/" куки работает на всех страницах
 //  ".projectbynick.herokuapp.com" название моего домена

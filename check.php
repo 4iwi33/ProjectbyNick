@@ -24,7 +24,7 @@ $headers = "From: $email\r\nReply-to: $email\r\nContent-type: text/html;charset=
 mail('4iwi33@mail.ru', $subject, $message, $headers);
 
 // переадресация
-header("Locatin /about.php");
+header("Locatin /reg.php");
 
 
 

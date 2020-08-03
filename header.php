@@ -9,7 +9,7 @@
     <?php
     if ($_COOKIE['user'] == 'Yes') : // если куки["юзер"] равно Yes то вывести Kabint
     ?>
-        <a class="btn btn-outline-danger" href="/ProjectbyNick/kabinet.php">Log out</a>
+        <a class="btn btn-outline-danger" href="/ProjectbyNick/kabinet.php">Logout</a>
     <?php else : ?>
         <!-- иначе вывести Sign in -->
         <a class="btn btn-outline-success" href="/ProjectbyNick/kabinet.php">Sign in</a>
